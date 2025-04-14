@@ -28,9 +28,7 @@ public partial struct SpawnPileSystem : ISystem
                 for (int z = 0; z < spawner.ValueRO.quantity; z++)
                 {
                     Entity newEntity = ecb.Instantiate(spawner.ValueRO.prefab);
-                    ecb.AddComponent(newEntity, new GoodComponent { });
-                    ecb.AddComponent(newEntity, new DestroyableTag { });
-                    ecb.AddComponent(newEntity, new TriggerDetectionSystem.OtherComponent { });
+                    ecb.AddComponent(newEntity, new GoodTag { });
                     ecb.AddComponent(newEntity, new LocalTransform
                     {
                         Position = (new float3(i, j + spawner.ValueRO.scale, z) + spawner.ValueRO.position) * spawner.ValueRO.scale,

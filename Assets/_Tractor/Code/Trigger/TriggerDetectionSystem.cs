@@ -1,13 +1,9 @@
-using System.Diagnostics;
 using Unity.Burst;
 using Unity.Entities;
 using Unity.Physics;
-using Unity.Physics.Systems;
 
-public struct DestroyableTag : IComponentData { }
 
 [UpdateInGroup(typeof(FixedStepSimulationSystemGroup))]
-//[UpdateBefore(typeof(PhysicsSimulationGroup))]
 [BurstCompile]
 public partial struct TriggerDetectionSystem : ISystem
 {
@@ -28,9 +24,7 @@ public partial struct TriggerDetectionSystem : ISystem
         {
             ecb = ecb,
             TriggerComponents = SystemAPI.GetComponentLookup<TriggerTag>(),
-            OtherComponents = SystemAPI.GetComponentLookup<OtherComponent>(),
-            //DestroyableComponents = SystemAPI.GetComponentLookup<DestroyableTag>(),
-            //GoodComponents = SystemAPI.GetComponentLookup<GoodComponent>()
+            GoodComponents = SystemAPI.GetComponentLookup<GoodTag>(),
         }.Schedule(simulation, state.Dependency);
     }
 
@@ -42,9 +36,7 @@ public partial struct TriggerDetectionSystem : ISystem
     {
         public EntityCommandBuffer ecb;
         public ComponentLookup<TriggerTag> TriggerComponents;
-        public ComponentLookup<OtherComponent> OtherComponents;
-        //public ComponentLookup<DestroyableTag> DestroyableComponents;
-        //public ComponentLookup<GoodComponent> GoodComponents;
+        public ComponentLookup<GoodTag> GoodComponents;
 
         [BurstCompile]
         public void Execute(TriggerEvent triggerEvent)
@@ -57,16 +49,9 @@ public partial struct TriggerDetectionSystem : ISystem
                 Entity triggerEntity = isEntityATrigger ? triggerEvent.EntityA : triggerEvent.EntityB;
                 Entity otherEntity = isEntityATrigger ? triggerEvent.EntityB : triggerEvent.EntityA;
 
-                if (OtherComponents.HasComponent(otherEntity))
+                if (GoodComponents.HasComponent(otherEntity))
                 {
                     ecb.DestroyEntity(otherEntity);
-                    //if (DestroyableComponents.HasComponent(otherEntity))
-                    //{
-                    //    if (GoodComponents.HasComponent(otherEntity))
-                    //    {
-                    //        UnityEngine.Debug.Log("+1");
-                    //    }
-                    //}
                 }
             }
         }
