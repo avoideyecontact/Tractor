@@ -16,9 +16,6 @@ public partial struct SpawnPileSystem : ISystem
 
         RefRW<SpawnPileComponent> spawner = SystemAPI.GetComponentRW<SpawnPileComponent>(spawnerEntity);
 
-        if (spawner.ValueRO.done)
-            return;
-
         EntityCommandBuffer ecb = new EntityCommandBuffer(Allocator.Temp);
 
         for (int i = 0; i < spawner.ValueRO.quantity; i++)
@@ -39,7 +36,8 @@ public partial struct SpawnPileSystem : ISystem
             }
         }
 
-        spawner.ValueRW.done = true;
+        ecb.DestroyEntity(spawnerEntity);
+
         ecb.Playback(state.EntityManager);
     }
 }

@@ -7,5 +7,4 @@ public struct SpawnPileComponent : IComponentData
     public int quantity;
     public float3 position;
     public float scale;
-    public bool done;
 }

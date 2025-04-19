@@ -19,8 +19,7 @@ class SpawnPileBaker : Baker<SpawnPileAuthoring>
             prefab = GetEntity(authoring.prefab, TransformUsageFlags.Dynamic),
             quantity = authoring.quantity,
             position = authoring.transform.position,
-            scale = authoring.scale,
-            done = false
+            scale = authoring.scale
         });
     }
 }
