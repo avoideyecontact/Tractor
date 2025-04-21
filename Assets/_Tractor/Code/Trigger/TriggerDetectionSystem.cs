@@ -1,58 +1,58 @@
 using Unity.Burst;
+using Unity.Collections;
 using Unity.Entities;
 using Unity.Physics;
-
 
 [UpdateInGroup(typeof(FixedStepSimulationSystemGroup))]
 [BurstCompile]
 public partial struct TriggerDetectionSystem : ISystem
 {
+    [BurstCompile]
     public void OnCreate(ref SystemState state)
     {
         state.RequireForUpdate<SimulationSingleton>();
-        state.RequireForUpdate<EndSimulationEntityCommandBufferSystem.Singleton>();
+        state.RequireForUpdate<EndFixedStepSimulationEntityCommandBufferSystem.Singleton>();
     }
 
     [BurstCompile]
     public void OnUpdate(ref SystemState state)
     {
-        var ecbSingleton = SystemAPI.GetSingleton<EndSimulationEntityCommandBufferSystem.Singleton>();
-        var ecb = ecbSingleton.CreateCommandBuffer(state.WorldUnmanaged);
+        var ecb = SystemAPI.GetSingleton<EndFixedStepSimulationEntityCommandBufferSystem.Singleton>()
+            .CreateCommandBuffer(state.WorldUnmanaged);
+
         var simulation = SystemAPI.GetSingleton<SimulationSingleton>();
 
         state.Dependency = new TriggerJob
         {
             ecb = ecb,
-            TriggerComponents = SystemAPI.GetComponentLookup<TriggerTag>(),
-            GoodComponents = SystemAPI.GetComponentLookup<GoodTag>(),
+            triggerComponents = SystemAPI.GetComponentLookup<TriggerTag>(true),
+            goodComponents = SystemAPI.GetComponentLookup<GoodTag>(true),
+            existsLookup = SystemAPI.GetEntityStorageInfoLookup()
         }.Schedule(simulation, state.Dependency);
     }
-
-    public struct TriggerTag : IComponentData { }
-    public struct OtherComponent : IComponentData { }
 
     [BurstCompile]
     struct TriggerJob : ITriggerEventsJob
     {
+        [ReadOnly] public ComponentLookup<TriggerTag> triggerComponents;
+        [ReadOnly] public ComponentLookup<GoodTag> goodComponents;
+        [ReadOnly] public EntityStorageInfoLookup existsLookup;
         public EntityCommandBuffer ecb;
-        public ComponentLookup<TriggerTag> TriggerComponents;
-        public ComponentLookup<GoodTag> GoodComponents;
 
-        [BurstCompile]
         public void Execute(TriggerEvent triggerEvent)
         {
-            bool isEntityATrigger = TriggerComponents.HasComponent(triggerEvent.EntityA);
-            bool isEntityBTrigger = TriggerComponents.HasComponent(triggerEvent.EntityB);
+            bool isA = triggerComponents.HasComponent(triggerEvent.EntityA);
+            bool isB = triggerComponents.HasComponent(triggerEvent.EntityB);
 
-            if (isEntityATrigger != isEntityBTrigger)
+            if (isA == isB) return;
+
+            Entity triggerEntity = isA ? triggerEvent.EntityA : triggerEvent.EntityB;
+            Entity otherEntity = isA ? triggerEvent.EntityB : triggerEvent.EntityA;
+
+            if (existsLookup.Exists(otherEntity) &&
+               goodComponents.HasComponent(otherEntity))
             {
-                Entity triggerEntity = isEntityATrigger ? triggerEvent.EntityA : triggerEvent.EntityB;
-                Entity otherEntity = isEntityATrigger ? triggerEvent.EntityB : triggerEvent.EntityA;
-
-                if (GoodComponents.HasComponent(otherEntity))
-                {
-                    ecb.DestroyEntity(otherEntity);
-                }
+                ecb.DestroyEntity(otherEntity);
             }
         }
     }

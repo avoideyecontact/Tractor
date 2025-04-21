@@ -1,5 +1,4 @@
 using Unity.Entities;
-using Unity.Physics;
 using UnityEngine;
 
 public class TriggerAuthoring : MonoBehaviour
@@ -10,7 +9,7 @@ public class TriggerAuthoring : MonoBehaviour
         {
             var entity = GetEntity(TransformUsageFlags.Dynamic);
 
-            AddComponent<TriggerDetectionSystem.TriggerTag>(entity);
+            AddComponent<TriggerTag>(entity);
         }
     }
 }
