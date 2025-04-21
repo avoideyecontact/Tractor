@@ -502,6 +502,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 961771731871644913, guid: 0984e102d0e62b14288cd162bf4715dc, type: 3}
+      propertyPath: moveSpeed
+      value: 150000
+      objectReference: {fileID: 0}
+    - target: {fileID: 961771731871644913, guid: 0984e102d0e62b14288cd162bf4715dc, type: 3}
+      propertyPath: baseHeight
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 961771731871644913, guid: 0984e102d0e62b14288cd162bf4715dc, type: 3}
+      propertyPath: rotationSpeed
+      value: 150000
+      objectReference: {fileID: 0}
+    - target: {fileID: 961771731871644913, guid: 0984e102d0e62b14288cd162bf4715dc, type: 3}
+      propertyPath: heightCorrectionSpeed
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 1518537574155211516, guid: 0984e102d0e62b14288cd162bf4715dc, type: 3}
       propertyPath: m_Name
       value: SnowplowPrefab

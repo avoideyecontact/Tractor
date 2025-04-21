@@ -1,5 +1,4 @@
 using Unity.Burst;
-using Unity.Collections;
 using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Physics.Extensions;
@@ -7,48 +6,62 @@ using Unity.Physics;
 using UnityEngine;
 using Unity.Transforms;
 
+[UpdateInGroup(typeof(FixedStepSimulationSystemGroup))]
 [BurstCompile]
 public partial struct TractorMovementSystem : ISystem
 {
+    private float3 _inputDirection;
+
+    [BurstCompile]
+    public void OnCreate(ref SystemState state)
+    {
+        state.RequireForUpdate<TractorMovementComponent>();
+    }
+
     [BurstCompile]
     public void OnUpdate(ref SystemState state)
     {
-        EntityManager entityManager = state.EntityManager;
-        NativeArray<Entity> entities = entityManager.GetAllEntities(Allocator.Temp);
+        if (!SystemAPI.TryGetSingleton<TractorInputComponent>(out var input)) return;
 
-        foreach (Entity entity in entities)
+        var job = new TractorMovementJob
         {
-            if (entityManager.HasComponent<TractorMovementComponent>(entity))
-            {
-                var tractor = entityManager.GetComponentData<TractorMovementComponent>(entity);
+            DeltaTime = SystemAPI.Time.DeltaTime,
+            Input = input
+        };
 
-                var velocity = entityManager.GetComponentData<PhysicsVelocity>(entity);
-                var mass = entityManager.GetComponentData<PhysicsMass>(entity);
-                var transform = entityManager.GetComponentData<LocalTransform>(entity);
+        job.Schedule();
+    }
 
+    [BurstCompile]
+    public partial struct TractorMovementJob : IJobEntity
+    {
+        public float DeltaTime;
+        public TractorInputComponent Input;
 
-                // Angle correction
-                Quaternion quaternion = transform.Rotation;
-                float3 euler = quaternion.eulerAngles;
-                transform.Rotation = Quaternion.Euler(0f, euler.y, 0f);
+        [BurstCompile]
+        public void Execute(
+            ref PhysicsVelocity velocity,
+            ref LocalTransform transform,
+            in PhysicsMass mass,
+            in TractorMovementComponent tractor)
+        {
 
-                // Pos correction
-                transform.Position.y = tractor.basePosY;
+            // Movement
+            var forward = math.mul(transform.Rotation, math.forward());
+            var linear = forward * (Input.Vertical * tractor.moveSpeed);
+            velocity.ApplyLinearImpulse(in mass, linear * DeltaTime);
 
-                // Movement
-                float3 direction = math.forward();
-                direction = math.mul(transform.Rotation, direction);
-                float3 linearImpulse = math.normalize(direction) * tractor.movementForce * Input.GetAxis("Vertical");
-                velocity.ApplyLinearImpulse(mass, linearImpulse * SystemAPI.Time.DeltaTime);
+            // Rotation
+            var angular = new float3(0, Input.Horizontal * tractor.rotationSpeed, 0);
+            velocity.ApplyAngularImpulse(in mass, angular * DeltaTime);
 
-                // Rotation
-                float3 angularIpulse = new float3(0, Input.GetAxis("Horizontal"), 0) * tractor.movementForce;                
-                velocity.ApplyAngularImpulse(mass, angularIpulse * SystemAPI.Time.DeltaTime);
+            // Pos correction
+            transform.Position.y = tractor.baseHeight;
 
-
-                entityManager.SetComponentData<PhysicsVelocity>(entity, velocity);
-                entityManager.SetComponentData<LocalTransform>(entity, transform);
-            }
+            // Angle correction
+            Quaternion quaternion = transform.Rotation;
+            float3 euler = quaternion.eulerAngles;
+            transform.Rotation = Quaternion.Euler(0f, euler.y, 0f);
         }
     }
 }
