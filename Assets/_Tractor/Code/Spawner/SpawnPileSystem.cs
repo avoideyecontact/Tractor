@@ -3,41 +3,62 @@ using Unity.Collections;
 using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
-using UnityEngine;
 
 [BurstCompile]
 public partial struct SpawnPileSystem : ISystem
 {
     [BurstCompile]
+    public void OnCreate(ref SystemState state)
+    {
+        state.RequireForUpdate<SpawnPileComponent>();
+    }
+
+    [BurstCompile]
     public void OnUpdate(ref SystemState state)
     {
-        if (!SystemAPI.TryGetSingletonEntity<SpawnPileComponent>(out Entity spawnerEntity))
-            return;
+        var Ecb = new EntityCommandBuffer(Allocator.TempJob);
+        var ecbParallel = Ecb.AsParallelWriter();
 
-        RefRW<SpawnPileComponent> spawner = SystemAPI.GetComponentRW<SpawnPileComponent>(spawnerEntity);
-
-        EntityCommandBuffer ecb = new EntityCommandBuffer(Allocator.Temp);
-
-        for (int i = 0; i < spawner.ValueRO.quantity; i++)
+        var processJob = new SpawnAndDeleteJob
         {
-            for (int j = 0; j < spawner.ValueRO.quantity; j++)
+            ecb = ecbParallel,
+        };
+
+        state.Dependency = processJob.ScheduleParallel(state.Dependency);
+        state.Dependency.Complete();
+
+        Ecb.Playback(state.EntityManager);
+        Ecb.Dispose();
+    }
+
+    [BurstCompile]
+    [WithAll(typeof(SpawnPileComponent))]
+    public partial struct SpawnAndDeleteJob : IJobEntity
+    {
+        public EntityCommandBuffer.ParallelWriter ecb;
+
+        public void Execute(Entity entity, [EntityIndexInQuery] int sortKey, ref SpawnPileComponent spawner)
+        {
+            for (int i = 0; i < spawner.quantity; i++)
             {
-                for (int z = 0; z < spawner.ValueRO.quantity; z++)
+                for (int j = 0; j < spawner.quantity; j++)
                 {
-                    Entity newEntity = ecb.Instantiate(spawner.ValueRO.prefab);
-                    ecb.AddComponent(newEntity, new GoodTag { });
-                    ecb.AddComponent(newEntity, new LocalTransform
+                    for (int z = 0; z < spawner.quantity; z++)
                     {
-                        Position = (new float3(i, j + spawner.ValueRO.scale, z) + spawner.ValueRO.position) * spawner.ValueRO.scale,
-                        Rotation = Quaternion.identity,
-                        Scale = spawner.ValueRO.scale
-                    });
+                        int newSortKey = sortKey + (i * 100 + j * 10 + z) * spawner.quantity;
+                        Entity newEntity = ecb.Instantiate(newSortKey, spawner.prefab);
+                        ecb.AddComponent(newSortKey, newEntity, new GoodTag { });
+                        ecb.AddComponent(newSortKey, newEntity, new LocalTransform
+                        {
+                            Position = (new float3(i, j + spawner.scale, z) + spawner.position) * spawner.scale,
+                            Rotation = quaternion.identity,
+                            Scale = spawner.scale
+                        });
+                    }
                 }
             }
+
+            ecb.DestroyEntity(sortKey, entity);
         }
-
-        ecb.DestroyEntity(spawnerEntity);
-
-        ecb.Playback(state.EntityManager);
     }
 }
