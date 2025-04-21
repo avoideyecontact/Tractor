@@ -3,6 +3,11 @@ using UnityEngine;
 
 public partial class TractorInputSystem : SystemBase
 {
+    protected override void OnCreate()
+    {
+        RequireForUpdate<TractorInputComponent>();
+    }
+
     protected override void OnUpdate()
     {
         var input = new TractorInputComponent
