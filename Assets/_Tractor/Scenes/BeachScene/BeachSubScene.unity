@@ -3055,7 +3055,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c4aa1f3b2341224e8de45ed5593ff60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
 --- !u!1001 &1038720319
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3345,6 +3344,42 @@ PrefabInstance:
     - target: {fileID: 1197617577415297773, guid: a2a313652bcf81544be95e6af079d28d, type: 3}
       propertyPath: m_Name
       value: DestroyCollider
+      objectReference: {fileID: 0}
+    - target: {fileID: 2328384443177893525, guid: a2a313652bcf81544be95e6af079d28d, type: 3}
+      propertyPath: m_Capsule.Axis
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2328384443177893525, guid: a2a313652bcf81544be95e6af079d28d, type: 3}
+      propertyPath: m_SphereRadius
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 2328384443177893525, guid: a2a313652bcf81544be95e6af079d28d, type: 3}
+      propertyPath: m_Cylinder.Axis
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2328384443177893525, guid: a2a313652bcf81544be95e6af079d28d, type: 3}
+      propertyPath: m_Capsule.Height
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2328384443177893525, guid: a2a313652bcf81544be95e6af079d28d, type: 3}
+      propertyPath: m_Capsule.Radius
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 2328384443177893525, guid: a2a313652bcf81544be95e6af079d28d, type: 3}
+      propertyPath: m_Cylinder.Height
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2328384443177893525, guid: a2a313652bcf81544be95e6af079d28d, type: 3}
+      propertyPath: m_Cylinder.Radius
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 2328384443177893525, guid: a2a313652bcf81544be95e6af079d28d, type: 3}
+      propertyPath: m_PrimitiveSize.x
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 2328384443177893525, guid: a2a313652bcf81544be95e6af079d28d, type: 3}
+      propertyPath: m_PrimitiveSize.z
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 2328384443177893525, guid: a2a313652bcf81544be95e6af079d28d, type: 3}
       propertyPath: m_Material.m_CollidesWithCategories.m_Value.Category03
@@ -4374,7 +4409,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5523766876180300395, guid: c2f7bffff80b61b40b0efa4f4fefa69c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -33
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5523766876180300395, guid: c2f7bffff80b61b40b0efa4f4fefa69c, type: 3}
       propertyPath: m_LocalRotation.w

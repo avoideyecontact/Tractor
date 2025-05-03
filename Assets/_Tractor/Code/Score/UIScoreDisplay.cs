@@ -19,7 +19,7 @@ public class UIScoreDisplay : MonoBehaviour
     {
         if (_scoreQuery.TryGetSingleton<ScoreComponent>(out var score))
         {
-            _scoreText.text = $"Score: {score.Score}";
+            _scoreText.text = $"{score.Score}";
         }
     }
 }
