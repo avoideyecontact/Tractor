@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class TriggerAuthoring : MonoBehaviour
 {
-    class Baker : Baker<TriggerAuthoring>
+    class TriggerBaker : Baker<TriggerAuthoring>
     {
         public override void Bake(TriggerAuthoring authoring)
         {

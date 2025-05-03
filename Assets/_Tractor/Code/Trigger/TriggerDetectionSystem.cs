@@ -22,9 +22,14 @@ public partial struct TriggerDetectionSystem : ISystem
 
         var simulation = SystemAPI.GetSingleton<SimulationSingleton>();
 
+        var scoreEntity = SystemAPI.GetSingletonEntity<ScoreComponent>();
+        var currentScore = SystemAPI.GetComponent<ScoreComponent>(scoreEntity).Score;
+
         state.Dependency = new TriggerJob
         {
             ecb = ecb,
+            scoreEntity = scoreEntity,
+            currentScore = currentScore,
             triggerComponents = SystemAPI.GetComponentLookup<TriggerTag>(true),
             goodComponents = SystemAPI.GetComponentLookup<GoodTag>(true),
             existsLookup = SystemAPI.GetEntityStorageInfoLookup()
@@ -34,10 +39,12 @@ public partial struct TriggerDetectionSystem : ISystem
     [BurstCompile]
     struct TriggerJob : ITriggerEventsJob
     {
+        public EntityCommandBuffer ecb;
+        public Entity scoreEntity;
+        public int currentScore;
         [ReadOnly] public ComponentLookup<TriggerTag> triggerComponents;
         [ReadOnly] public ComponentLookup<GoodTag> goodComponents;
         [ReadOnly] public EntityStorageInfoLookup existsLookup;
-        public EntityCommandBuffer ecb;
 
         public void Execute(TriggerEvent triggerEvent)
         {
@@ -52,6 +59,11 @@ public partial struct TriggerDetectionSystem : ISystem
             if (existsLookup.Exists(otherEntity) &&
                goodComponents.HasComponent(otherEntity))
             {
+                ecb.AddComponent(scoreEntity, new ScoreComponent
+                {
+                    Score = currentScore + 1
+                });
+
                 ecb.DestroyEntity(otherEntity);
             }
         }
