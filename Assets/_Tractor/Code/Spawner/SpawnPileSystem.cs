@@ -37,6 +37,7 @@ public partial struct SpawnPileSystem : ISystem
     {
         public EntityCommandBuffer.ParallelWriter ecb;
 
+        [BurstCompile]
         public void Execute(Entity entity, [EntityIndexInQuery] int sortKey, ref SpawnPileComponent spawner)
         {
             for (int i = 0; i < spawner.quantity; i++)
