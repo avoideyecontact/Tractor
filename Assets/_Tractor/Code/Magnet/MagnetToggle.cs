@@ -5,6 +5,7 @@ using UnityEngine;
 public class MagnetToggle : MonoBehaviour
 {
     [SerializeField] private bool isEnabled;
+    [SerializeField] private MeshRenderer magnetModel;
     private EntityManager _entityManager;
     private EntityQuery _magnetQuery;
 
@@ -25,6 +26,15 @@ public class MagnetToggle : MonoBehaviour
         {
             magnet.isEnabled = isEnabled;
             _entityManager.SetComponentData(magnetEntity, magnet);
+
+            if (magnet.isEnabled)
+            {
+                magnetModel.enabled = true;
+            }
+            else
+            {
+                magnetModel.enabled = false;
+            }
         }
     }
 

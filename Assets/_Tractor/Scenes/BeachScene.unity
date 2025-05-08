@@ -626,6 +626,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a059c4ac190b41743b10d5c9ddf4ae00, type: 3}
+--- !u!1 &476316482 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+  m_PrefabInstance: {fileID: 777167092}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &511366124 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4418329334766324, guid: ea51f17e496914af898f211170b14d93, type: 3}
@@ -636,6 +641,113 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6517266582206468744, guid: cab20a9a3e2206343823c22bf8b13b38, type: 3}
   m_PrefabInstance: {fileID: 887650904}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &777167092
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -20
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+      propertyPath: m_Name
+      value: MagnetModel
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1169617869}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 777167100}
+  m_SourcePrefab: {fileID: 100100000, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+--- !u!4 &777167093 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+  m_PrefabInstance: {fileID: 777167092}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &777167098 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 888bf60183257b741b91afb5a2a62dab, type: 3}
+  m_PrefabInstance: {fileID: 777167092}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &777167100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476316482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 132180d7591e1aa43a1b2191e5d1f52e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnabled: 0
+  magnetModel: {fileID: 777167098}
 --- !u!1001 &887650904
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -851,6 +963,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a059c4ac190b41743b10d5c9ddf4ae00, type: 3}
+--- !u!1 &1169617868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1169617869}
+  m_Layer: 0
+  m_Name: MagnetPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1169617869
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1169617868}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 777167093}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1183831729
 GameObject:
   m_ObjectHideFlags: 0
@@ -1739,7 +1882,6 @@ GameObject:
   - component: {fileID: 2042261656}
   - component: {fileID: 2042261655}
   - component: {fileID: 2042261654}
-  - component: {fileID: 2042261657}
   m_Layer: 5
   m_Name: MagnetButton (Legacy)
   m_TagString: Untagged
@@ -1811,7 +1953,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2042261657}
+      - m_Target: {fileID: 777167100}
         m_TargetAssemblyTypeName: MagnetToggle, Assembly-CSharp
         m_MethodName: MagnetStateToggle
         m_Mode: 1
@@ -1861,19 +2003,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042261652}
   m_CullTransparentMesh: 1
---- !u!114 &2042261657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2042261652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 132180d7591e1aa43a1b2191e5d1f52e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isEnabled: 0
 --- !u!1001 &2104307162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2054,4 +2183,5 @@ SceneRoots:
   - {fileID: 1999207563}
   - {fileID: 2109631626}
   - {fileID: 1300819573}
+  - {fileID: 777167092}
   - {fileID: 1890579053}
