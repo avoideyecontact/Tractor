@@ -844,7 +844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   magnetPoint: {fileID: 1125055064}
-  magnetForce: 75
+  magnetForce: 200
   isEnabled: 0
 --- !u!4 &138292002
 Transform:
