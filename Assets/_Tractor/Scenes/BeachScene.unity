@@ -862,6 +862,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2845693556186473189, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4344891386886438137, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
       propertyPath: m_Name
       value: ScenePrefab
@@ -905,6 +909,10 @@ PrefabInstance:
     - target: {fileID: 7751789536755331001, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7844317097083548920, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: goodsLimitToEnableMagnet
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
