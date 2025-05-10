@@ -11,4 +11,8 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(StaticData.BeachScene);
     }
+    public void LoadSnow()
+    {
+        SceneManager.LoadScene(StaticData.SnowScene);
+    }
 }
