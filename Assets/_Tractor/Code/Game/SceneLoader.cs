@@ -7,6 +7,10 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(StaticData.MainMenuScene);
     }
+    public void LoadSeaport()
+    {
+        SceneManager.LoadScene(StaticData.SeaportScene);
+    }
     public void LoadBeach()
     {
         SceneManager.LoadScene(StaticData.BeachScene);
