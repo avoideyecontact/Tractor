@@ -54,7 +54,7 @@ public partial struct TriggerDetectionSystem : ISystem
             if (existsLookup.Exists(otherEntity) &&
                goodComponents.HasComponent(otherEntity))
             {
-                ecb.AddComponent(otherEntity, new ScorePointTag());
+                ecb.AddComponent(otherEntity, new DestroyRequest());
             }
         }
     }

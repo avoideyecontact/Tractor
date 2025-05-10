@@ -912,7 +912,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7844317097083548920, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
       propertyPath: goodsLimitToEnableMagnet
-      value: 100
+      value: 150
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
