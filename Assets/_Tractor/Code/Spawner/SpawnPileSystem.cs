@@ -38,8 +38,14 @@ public partial struct SpawnPileSystem : ISystem
         public EntityCommandBuffer.ParallelWriter ecb;
 
         [BurstCompile]
-        public void Execute(Entity entity, [EntityIndexInQuery] int sortKey, ref SpawnPileComponent spawner)
+        public void Execute(
+            Entity entity, 
+            [EntityIndexInQuery] int sortKey, 
+            ref SpawnPileComponent spawner, 
+            DynamicBuffer<SpawnerBufferElement> buffer)
         {
+            if (buffer.IsEmpty) return;
+
             for (int i = 0; i < spawner.quantity; i++)
             {
                 for (int j = 0; j < spawner.quantity; j++)
@@ -47,7 +53,8 @@ public partial struct SpawnPileSystem : ISystem
                     for (int z = 0; z < spawner.quantity; z++)
                     {
                         int newSortKey = sortKey + (i * 100 + j * 10 + z) * spawner.quantity;
-                        Entity newEntity = ecb.Instantiate(newSortKey, spawner.prefab);
+                        int index = (i + j + z) % buffer.Length;
+                        Entity newEntity = ecb.Instantiate(newSortKey, buffer[index].Value);
                         ecb.AddComponent(newSortKey, newEntity, new GoodTag { });
                         ecb.AddComponent(newSortKey, newEntity, new LocalTransform
                         {

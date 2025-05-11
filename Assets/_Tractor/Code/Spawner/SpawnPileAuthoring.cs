@@ -3,9 +3,10 @@ using UnityEngine;
 
 public class SpawnPileAuthoring : MonoBehaviour
 {
-    public GameObject prefab;
+    //public GameObject prefab;
     public int quantity;
     public float scale;
+    public GameObject[] gameObjects;
 }
 
 class SpawnPileBaker : Baker<SpawnPileAuthoring>
@@ -16,10 +17,22 @@ class SpawnPileBaker : Baker<SpawnPileAuthoring>
 
         AddComponent(entity, new SpawnPileComponent
         {
-            prefab = GetEntity(authoring.prefab, TransformUsageFlags.Dynamic),
             quantity = authoring.quantity,
             position = authoring.transform.position,
             scale = authoring.scale
         });
+
+        DynamicBuffer<SpawnerBufferElement> buffer = AddBuffer<SpawnerBufferElement>(entity);
+
+        foreach (var go in authoring.gameObjects)
+        {
+            if (go != null)
+            {
+                buffer.Add(new SpawnerBufferElement
+                {
+                    Value = GetEntity(go, TransformUsageFlags.Dynamic)
+                });
+            }
+        }
     }
 }

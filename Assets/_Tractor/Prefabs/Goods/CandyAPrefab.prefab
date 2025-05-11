@@ -86,7 +86,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: c0bbf855c560c0e4b9125ea439cbcd9b, type: 2}
     - target: {fileID: 919132149155446097, guid: c4ed7e0f3af0e114dbc53f592c141c3e, type: 3}
       propertyPath: m_Name
-      value: CandyPrefab
+      value: CandyAPrefab
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c4ed7e0f3af0e114dbc53f592c141c3e, type: 3}
       propertyPath: m_Layer
@@ -265,7 +265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_MotionType: 0
   m_Smoothing: 0
-  m_Mass: 0.5
+  m_Mass: 0.1
   m_LinearDamping: 1
   m_AngularDamping: 1
   m_InitialLinearVelocity:
