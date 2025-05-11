@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.7254902, g: 0.8352942, b: 0.91372555, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.0025
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -127,9 +127,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1286468031}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -189,9 +205,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 530229258}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -246,9 +278,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 542508279}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -313,9 +361,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 394846151}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -375,9 +439,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 513043434}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -481,6 +561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-skyscraper (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5610263175112714268, guid: 2fcc9573ecaf4af47b08647efe496c8e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -494,9 +578,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 542508279}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -580,9 +680,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1286468031}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -642,9 +758,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 530229258}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -702,6 +834,10 @@ PrefabInstance:
     - target: {fileID: 8434696091228932006, guid: 48a668d733c538142a63145a427a9c46, type: 3}
       propertyPath: m_Name
       value: building-office-pyramid
+      objectReference: {fileID: 0}
+    - target: {fileID: 8434696091228932006, guid: 48a668d733c538142a63145a427a9c46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8434696091228969862, guid: 48a668d733c538142a63145a427a9c46, type: 3}
       propertyPath: m_LocalPosition.x
@@ -762,7 +898,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &55570653
 Transform:
@@ -804,6 +940,10 @@ PrefabInstance:
     - target: {fileID: 4814210312323024179, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
       propertyPath: m_Name
       value: building-office-balcony (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814210312323024179, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4814210312323389715, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -861,6 +1001,22 @@ PrefabInstance:
     - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_green
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
@@ -929,6 +1085,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: cargo-shipping_green
       objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
       value: 60
@@ -990,6 +1162,22 @@ PrefabInstance:
     - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_green (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1054,9 +1242,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 55570653}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1160,6 +1364,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-casino
       objectReference: {fileID: 0}
+    - target: {fileID: 5800875532185041811, guid: 07c8e106acd5e374993ac59b372212a8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1176,6 +1384,10 @@ PrefabInstance:
     - target: {fileID: 1745160681011928, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
       propertyPath: m_Name
       value: building-office (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1745160681011928, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4122925291796366, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1235,9 +1447,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 542508279}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1297,9 +1525,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1286468031}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1359,9 +1603,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 394846151}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -1456,6 +1716,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: cargo-shipping_green
       objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27.38
@@ -1513,6 +1789,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-office-balcony (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4814210312323024179, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4814210312323389715, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -102.5
@@ -1566,9 +1846,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1110812547}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1628,9 +1924,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 542508279}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1695,9 +2007,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1874170685}
     m_Modifications:
+    - target: {fileID: 861807025518665395, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739534656103557733, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2675623968122039947, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4193164393810554679, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4711596584094694920, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
       propertyPath: m_Name
       value: car-truck-flatbed
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711596584094694920, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5343842624440116402, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1739,6 +2071,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6445770933817610965, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7141475402707339686, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8527354962829417079, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1752,9 +2096,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166179184}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -1830,9 +2190,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 513043434}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1896,6 +2272,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-office
       objectReference: {fileID: 0}
+    - target: {fileID: 1745160681011928, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4122925291796366, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
       propertyPath: m_LocalPosition.x
       value: -35
@@ -1953,6 +2333,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-office-balcony (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4814210312323024179, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4814210312323389715, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 75
@@ -2009,6 +2393,22 @@ PrefabInstance:
     - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_green (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2068,9 +2468,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166179184}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2130,9 +2546,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 394846151}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2208,7 +2640,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &394846151
 Transform:
@@ -2250,6 +2682,22 @@ PrefabInstance:
     - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_green (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2353,6 +2801,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-skyscraper
       objectReference: {fileID: 0}
+    - target: {fileID: 5610263175112714268, guid: 2fcc9573ecaf4af47b08647efe496c8e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2371,9 +2823,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1874170685}
     m_Modifications:
+    - target: {fileID: 861807025518665395, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739534656103557733, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2675623968122039947, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4193164393810554679, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4711596584094694920, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
       propertyPath: m_Name
       value: car-truck-flatbed (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711596584094694920, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5343842624440116402, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2415,6 +2887,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6445770933817610965, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7141475402707339686, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8527354962829417079, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2433,9 +2917,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1874170685}
     m_Modifications:
+    - target: {fileID: 861807025518665395, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1739534656103557733, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2675623968122039947, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4193164393810554679, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4711596584094694920, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
       propertyPath: m_Name
       value: car-truck-flatbed (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4711596584094694920, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5343842624440116402, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2477,6 +2981,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6445770933817610965, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7141475402707339686, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8527354962829417079, guid: 848d84c92faab884d8b71bf57a6a5cde, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2495,9 +3011,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1110812547}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -2581,9 +3113,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 394846151}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2643,9 +3191,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166179184}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2710,9 +3274,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 530229258}
     m_Modifications:
+    - target: {fileID: 1078366792278960, guid: 5aa74c7b10e7849639b202685a4de45d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214138570797468, guid: 5aa74c7b10e7849639b202685a4de45d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1395774199425696, guid: 5aa74c7b10e7849639b202685a4de45d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1735748496291786, guid: 5aa74c7b10e7849639b202685a4de45d, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_red
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735748496291786, guid: 5aa74c7b10e7849639b202685a4de45d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4172125605037246, guid: 5aa74c7b10e7849639b202685a4de45d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2789,7 +3369,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &513043434
 Transform:
@@ -2828,9 +3408,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 542508279}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2896,7 +3492,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &530229258
 Transform:
@@ -2937,7 +3533,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &542508279
 Transform:
@@ -3024,6 +3620,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-skyscraper (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5610263175112714268, guid: 2fcc9573ecaf4af47b08647efe496c8e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3040,6 +3640,22 @@ PrefabInstance:
     - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_green
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3152,9 +3768,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1110812547}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -3238,9 +3870,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 394846151}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -3328,6 +3976,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: cargo-shipping_green (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
       value: 54
@@ -3386,9 +4050,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 394846151}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3448,9 +4128,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1110812547}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3510,9 +4206,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 55570653}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3575,6 +4287,10 @@ PrefabInstance:
     - target: {fileID: 8434696091228932006, guid: 48a668d733c538142a63145a427a9c46, type: 3}
       propertyPath: m_Name
       value: building-office-pyramid (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8434696091228932006, guid: 48a668d733c538142a63145a427a9c46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8434696091228969862, guid: 48a668d733c538142a63145a427a9c46, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3639,9 +4355,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 55570653}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -3734,6 +4466,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: cargo-shipping_green (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
       value: 54
@@ -3797,9 +4545,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 542508279}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3865,7 +4629,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &742868661
 Transform:
@@ -3925,6 +4689,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-office-pyramid (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8434696091228932006, guid: 48a668d733c538142a63145a427a9c46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8434696091228969862, guid: 48a668d733c538142a63145a427a9c46, type: 3}
       propertyPath: m_LocalPosition.x
       value: -80
@@ -3978,9 +4746,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1110812547}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4089,6 +4873,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-bank
       objectReference: {fileID: 0}
+    - target: {fileID: 516529644008630337, guid: b0fafeba093d08448b7c4f66f69294cd, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4102,9 +4890,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 530229258}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4159,9 +4963,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1286468031}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4221,9 +5041,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1110812547}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4283,9 +5119,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2031338104}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4345,9 +5197,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1110812547}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4411,6 +5279,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: cargo-shipping_green (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
       value: 54
@@ -4473,6 +5357,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-office-balcony (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4814210312323024179, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4814210312323389715, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -202.5
@@ -4531,9 +5419,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1286468031}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4593,9 +5497,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1286468031}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4660,9 +5580,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 55570653}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4722,9 +5658,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 394846151}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4784,9 +5736,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2031338104}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4856,9 +5824,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1286468031}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -4942,9 +5926,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2031338104}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5004,9 +6004,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2031338104}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5071,9 +6087,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 513043434}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5133,9 +6165,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 55570653}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -5216,9 +6264,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2031338104}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5278,9 +6342,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1286468031}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -5368,6 +6448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: crane-port
       objectReference: {fileID: 0}
+    - target: {fileID: 1426054580676314, guid: c6fe72a221ecc41aba30094958f212b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4343237038991504, guid: c6fe72a221ecc41aba30094958f212b3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 36.4
@@ -5421,9 +6505,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 55570653}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5483,9 +6583,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2031338104}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5549,6 +6665,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: cargo-shipping_green (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
       value: 54
@@ -5611,6 +6743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-office (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1745160681011928, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4122925291796366, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
       propertyPath: m_LocalPosition.x
       value: 47.5
@@ -5664,9 +6800,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 513043434}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5831,6 +6983,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: cargo-shipping_green
       objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
       value: 60
@@ -5893,6 +7061,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-office-pyramid (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8434696091228932006, guid: 48a668d733c538142a63145a427a9c46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8434696091228969862, guid: 48a668d733c538142a63145a427a9c46, type: 3}
       propertyPath: m_LocalPosition.x
       value: -172.5
@@ -5949,6 +7121,22 @@ PrefabInstance:
     - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_green (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6035,9 +7223,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166179184}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6101,6 +7305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-office (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1745160681011928, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4122925291796366, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
       propertyPath: m_LocalPosition.x
       value: 50
@@ -6157,6 +7365,10 @@ PrefabInstance:
     - target: {fileID: 4814210312323024179, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
       propertyPath: m_Name
       value: building-office-balcony
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814210312323024179, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4814210312323389715, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6222,7 +7434,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1083663945
 Transform:
@@ -6266,7 +7478,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1110812547
 Transform:
@@ -6328,7 +7540,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1166179184
 Transform:
@@ -6369,6 +7581,10 @@ PrefabInstance:
     - target: {fileID: 1745160681011928, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
       propertyPath: m_Name
       value: building-office (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1745160681011928, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4122925291796366, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6427,6 +7643,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-office (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1745160681011928, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4122925291796366, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
       propertyPath: m_LocalPosition.x
       value: -215
@@ -6484,6 +7704,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-office (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1745160681011928, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4122925291796366, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10
@@ -6540,6 +7764,10 @@ PrefabInstance:
     - target: {fileID: 4814210312323024179, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
       propertyPath: m_Name
       value: building-office-balcony (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4814210312323024179, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4814210312323389715, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6599,9 +7827,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 513043434}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6661,9 +7905,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 542508279}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -6743,6 +8003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-office-balcony (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4814210312323024179, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4814210312323389715, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 70
@@ -6796,9 +8060,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 542508279}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6858,9 +8138,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1110812547}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6980,6 +8276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-port-sea (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3035501176962291040, guid: fd5dedab04d098d489e07cb0829f21ec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7004,7 +8304,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1286468031
 Transform:
@@ -7052,9 +8352,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 394846151}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7114,9 +8430,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 530229258}
     m_Modifications:
+    - target: {fileID: 1078366792278960, guid: 5aa74c7b10e7849639b202685a4de45d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214138570797468, guid: 5aa74c7b10e7849639b202685a4de45d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1395774199425696, guid: 5aa74c7b10e7849639b202685a4de45d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1735748496291786, guid: 5aa74c7b10e7849639b202685a4de45d, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_red (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735748496291786, guid: 5aa74c7b10e7849639b202685a4de45d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4344328009244230, guid: 5aa74c7b10e7849639b202685a4de45d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7174,6 +8506,22 @@ PrefabInstance:
     - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_green (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7242,6 +8590,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-office-pyramid (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8434696091228932006, guid: 48a668d733c538142a63145a427a9c46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8434696091228969862, guid: 48a668d733c538142a63145a427a9c46, type: 3}
       propertyPath: m_LocalPosition.x
       value: 87.5
@@ -7299,6 +8651,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-office (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1745160681011928, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4122925291796366, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
       propertyPath: m_LocalPosition.x
       value: 120
@@ -7355,6 +8711,22 @@ PrefabInstance:
     - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_green (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7417,6 +8789,10 @@ PrefabInstance:
     - target: {fileID: 8430675094642359053, guid: 5fa888471d408f14c86137b50020ed99, type: 3}
       propertyPath: m_Name
       value: tile-water-nb (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8430675094642359053, guid: 5fa888471d408f14c86137b50020ed99, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 9202005193608372663, guid: 5fa888471d408f14c86137b50020ed99, type: 3}
       propertyPath: m_LocalScale.x
@@ -7484,9 +8860,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166179184}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7546,9 +8938,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1286468031}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -7629,9 +9037,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166179184}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -7715,9 +9139,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 55570653}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7777,9 +9217,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166179184}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7849,9 +9305,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166179184}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7955,6 +9427,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-skyscraper (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5610263175112714268, guid: 2fcc9573ecaf4af47b08647efe496c8e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7968,9 +9444,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2031338104}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8035,9 +9527,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2031338104}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8102,9 +9610,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2031338104}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -8188,9 +9712,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 55570653}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8250,9 +9790,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1110812547}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8312,9 +9868,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 55570653}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -8402,6 +9974,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-office-balcony (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4814210312323024179, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4814210312323389715, guid: 5fdc9b9c76496614aa7ff2941dfa05b5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 142.5
@@ -8458,6 +10034,22 @@ PrefabInstance:
     - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_green
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8517,9 +10109,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 394846151}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8631,9 +10239,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 20277845658430192, guid: 2bf1cec311e1ff447abe622813daf0e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 20277845658430194, guid: 2bf1cec311e1ff447abe622813daf0e5, type: 3}
       propertyPath: m_Name
       value: ship-cargo
+      objectReference: {fileID: 0}
+    - target: {fileID: 20277845658430194, guid: 2bf1cec311e1ff447abe622813daf0e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 20277845658430198, guid: 2bf1cec311e1ff447abe622813daf0e5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8651,6 +10271,10 @@ PrefabInstance:
     - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_Name
       value: tile-plain_concrete (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4753532892958936, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_LocalScale.x
@@ -8727,9 +10351,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1286468031}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8789,9 +10429,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 394846151}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8855,6 +10511,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: cargo-shipping_green (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
       value: 54
@@ -8913,9 +10585,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1110812547}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8984,6 +10672,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-office (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1745160681011928, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4122925291796366, guid: 9ac1442c8434e48488f8a4715b880250, type: 3}
       propertyPath: m_LocalPosition.x
       value: -95
@@ -9037,9 +10729,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 530229258}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9099,9 +10807,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1110812547}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9161,9 +10885,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 513043434}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9227,6 +10967,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: cargo-shipping_green (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
       value: 54
@@ -9288,6 +11044,22 @@ PrefabInstance:
     - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_green (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9351,6 +11123,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: cargo-shipping_green (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
       value: 54
@@ -9413,6 +11201,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: cargo-shipping_green
       objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
       value: 60
@@ -9474,6 +11278,22 @@ PrefabInstance:
     - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_green (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9544,7 +11364,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1754102700
 Transform:
@@ -9570,9 +11390,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 530229258}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9627,9 +11463,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 513043434}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -9713,9 +11565,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 394846151}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9775,9 +11643,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1110812547}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -9857,6 +11741,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: cargo-shipping_green (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
       value: 54
@@ -9919,6 +11819,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: crane-port (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1426054580676314, guid: c6fe72a221ecc41aba30094958f212b3, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4343237038991504, guid: c6fe72a221ecc41aba30094958f212b3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 36.4
@@ -9972,9 +11876,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 55570653}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10034,9 +11954,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 542508279}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10096,9 +12032,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 513043434}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -10182,9 +12134,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 513043434}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10250,7 +12218,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1874170685
 Transform:
@@ -10327,6 +12295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ship-yacht
       objectReference: {fileID: 0}
+    - target: {fileID: 2280706949820942686, guid: eebce9a94d64473488904b3134d981d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10343,6 +12315,22 @@ PrefabInstance:
     - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_green (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10408,7 +12396,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1889515048
 Transform:
@@ -10438,9 +12426,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 542508279}
     m_Modifications:
+    - target: {fileID: 1177410538724652, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 1743089644504300, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913642836550616, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1951107280750096, guid: 880105d612d39412b951fe6d75095e05, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4917693750657228, guid: 880105d612d39412b951fe6d75095e05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10500,9 +12504,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 513043434}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10562,9 +12582,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166179184}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -10652,6 +12688,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: cargo-shipping_green
       objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
       value: 60
@@ -10710,9 +12762,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2031338104}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10772,9 +12840,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 530229258}
     m_Modifications:
+    - target: {fileID: 1078366792278960, guid: 5aa74c7b10e7849639b202685a4de45d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1214138570797468, guid: 5aa74c7b10e7849639b202685a4de45d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1395774199425696, guid: 5aa74c7b10e7849639b202685a4de45d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1735748496291786, guid: 5aa74c7b10e7849639b202685a4de45d, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_red (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1735748496291786, guid: 5aa74c7b10e7849639b202685a4de45d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4344328009244230, guid: 5aa74c7b10e7849639b202685a4de45d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10834,9 +12918,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1166179184}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10901,9 +13001,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2031338104}
     m_Modifications:
+    - target: {fileID: 1056579711333370, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1158790947163374, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_Name
       value: cargo-shipping (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514182738608680, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1973222124028216, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4652509752935518, guid: a9b5436c77c79497486ac04c79b37e2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -10998,7 +13114,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &2031338104
 Transform:
@@ -11045,6 +13161,10 @@ PrefabInstance:
     - target: {fileID: 1516009725801734, guid: 22511d1ae55a5d548870c24b5867abb9, type: 3}
       propertyPath: m_Name
       value: building-cinema
+      objectReference: {fileID: 0}
+    - target: {fileID: 1516009725801734, guid: 22511d1ae55a5d548870c24b5867abb9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4745545939884706, guid: 22511d1ae55a5d548870c24b5867abb9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11099,9 +13219,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 513043434}
     m_Modifications:
+    - target: {fileID: 1184216477836978, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_white
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241916178129826, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396091425644382, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1598125841640120, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4157002167963682, guid: 9712b31cf233f4e6a838854084ab4d52, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11170,6 +13306,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-office-pyramid (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8434696091228932006, guid: 48a668d733c538142a63145a427a9c46, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8434696091228969862, guid: 48a668d733c538142a63145a427a9c46, type: 3}
       propertyPath: m_LocalPosition.x
       value: -180
@@ -11231,6 +13371,22 @@ PrefabInstance:
     - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_green
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012853047471764, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1022884030114364, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1194095742545918, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519572653631902, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4025116980516556, guid: 6d17f1c03ddba4bd982e6a259539d272, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11295,9 +13451,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 55570653}
     m_Modifications:
+    - target: {fileID: 1177173298599840, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1329861463811106, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_Name
       value: cargo-shipping_blue (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1338355318084972, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522685324975724, guid: aa5dc305ea229487caa944e36d991189, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4287321083919744, guid: aa5dc305ea229487caa944e36d991189, type: 3}
       propertyPath: m_LocalPosition.x

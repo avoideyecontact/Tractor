@@ -14,10 +14,10 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
-  m_Fog: 0
-  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_Fog: 1
+  m_FogColor: {r: 0.72156864, g: 0.8313726, b: 0.909804, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.002
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -141,6 +141,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (102)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -72.1
@@ -203,6 +207,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-plain (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
       value: 2
@@ -263,6 +271,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (105)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -330,6 +342,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -428,6 +444,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: souvenir-stall
       objectReference: {fileID: 0}
+    - target: {fileID: 5561528921351026696, guid: 4cd9db6f5e0e8da42a5fadeb940fcf53, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -449,6 +469,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (106)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -522,6 +546,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: roller-coaster-cart-front
       objectReference: {fileID: 0}
+    - target: {fileID: 1597544244756345706, guid: baf323c538b3e054cbc10b8a49d07ed5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2116778318511188432, guid: baf323c538b3e054cbc10b8a49d07ed5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.862
@@ -589,6 +617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -43.020813
@@ -651,6 +683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (103)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -69.14081
@@ -708,6 +744,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 43.79
@@ -764,6 +804,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -867,6 +911,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stand-ice-cream
       objectReference: {fileID: 0}
+    - target: {fileID: 4363504320892175907, guid: abd37ef7d9c65d34486181d14d0f902d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -888,6 +936,10 @@ PrefabInstance:
     - target: {fileID: 1208323333587916336, guid: 4573ce1962846514089569e2ae4cc85c, type: 3}
       propertyPath: m_Name
       value: balloons-bunch-more
+      objectReference: {fileID: 0}
+    - target: {fileID: 1208323333587916336, guid: 4573ce1962846514089569e2ae4cc85c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1985809289744387210, guid: 4573ce1962846514089569e2ae4cc85c, type: 3}
       propertyPath: m_LocalScale.x
@@ -966,6 +1018,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -1047,6 +1103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-plain (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
       value: 2
@@ -1112,6 +1172,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.3791924
@@ -1168,6 +1232,10 @@ PrefabInstance:
     - target: {fileID: 5160281611356444237, guid: ce3a0f277c0789349907bdba735b02b1, type: 3}
       propertyPath: m_Name
       value: building-market-china
+      objectReference: {fileID: 0}
+    - target: {fileID: 5160281611356444237, guid: ce3a0f277c0789349907bdba735b02b1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5160281611356736109, guid: ce3a0f277c0789349907bdba735b02b1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1230,6 +1298,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1353,6 +1425,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: boat-china (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3200914132228766113, guid: 775f1f0ab10f7534d9f4c5904a5a47ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1369,6 +1445,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (83)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1426,6 +1506,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -1492,6 +1576,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.42
@@ -1548,6 +1636,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1611,6 +1703,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.64
@@ -1672,6 +1768,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -1737,6 +1837,10 @@ PrefabInstance:
     - target: {fileID: 3702025675720886668, guid: 67ca9e17671b80e4696abb15769bfaf8, type: 3}
       propertyPath: m_Name
       value: stand-popcorn-big
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702025675720886668, guid: 67ca9e17671b80e4696abb15769bfaf8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4047588245667074870, guid: 67ca9e17671b80e4696abb15769bfaf8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1835,6 +1939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tent-party-big (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4232418750875449005, guid: e0e9f10604629564080ed286332f671c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1861,6 +1969,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1918,6 +2030,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -2020,6 +2136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: roller-coaster-big
       objectReference: {fileID: 0}
+    - target: {fileID: 5414935664566388811, guid: 58f09a7d788f5b5429bc4e15e957f743, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5180510240564573445, guid: 58f09a7d788f5b5429bc4e15e957f743, type: 3}
     m_RemovedGameObjects: []
@@ -2037,6 +2157,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (61)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2099,6 +2223,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (90)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2187,6 +2315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -29.120811
@@ -2240,9 +2372,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1260980480}
     m_Modifications:
+    - target: {fileID: 4857220131123498054, guid: 2ef36701e06e1c44cad0be6200a187e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249876445189346059, guid: 2ef36701e06e1c44cad0be6200a187e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8082468094904715650, guid: 2ef36701e06e1c44cad0be6200a187e6, type: 3}
       propertyPath: m_Name
       value: carousel-coaster (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8082468094904715650, guid: 2ef36701e06e1c44cad0be6200a187e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8890494085224796984, guid: 2ef36701e06e1c44cad0be6200a187e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2306,6 +2450,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: roller-coaster-cart
       objectReference: {fileID: 0}
+    - target: {fileID: 4622202619395096772, guid: 079668d74790fe54db3324f068d22c5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5435436171647556222, guid: 079668d74790fe54db3324f068d22c5a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.85
@@ -2363,6 +2511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (44)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 52.429195
@@ -2419,6 +2571,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2481,6 +2637,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2579,6 +2739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bumper-car
       objectReference: {fileID: 0}
+    - target: {fileID: 7116445988734469282, guid: d0bfc0a22f0554f4a806ced3f36ca69e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2641,6 +2805,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: scifi-food-stall
       objectReference: {fileID: 0}
+    - target: {fileID: 6533202330178653448, guid: ed9e8fa135e537e4bb1758b0b2c81b32, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2667,6 +2835,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -2749,6 +2921,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30.779192
@@ -2805,6 +2981,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2863,6 +3043,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.809193
@@ -2919,6 +3103,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -2986,6 +3174,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.159193
@@ -3042,6 +3234,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -3109,6 +3305,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (56)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 77.97919
@@ -3173,7 +3373,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &550009958
 Transform:
@@ -3238,6 +3438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.3
@@ -3295,6 +3499,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: circus-wagon
       objectReference: {fileID: 0}
+    - target: {fileID: 4693882311481997396, guid: 8b5dd20a82c9b0347bbabf6a722de35d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5363740681631163118, guid: 8b5dd20a82c9b0347bbabf6a722de35d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.8
@@ -3335,6 +3543,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6814475892877919185, guid: 8b5dd20a82c9b0347bbabf6a722de35d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7405964872213672697, guid: 8b5dd20a82c9b0347bbabf6a722de35d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955191122330010552, guid: 8b5dd20a82c9b0347bbabf6a722de35d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4866978779616515610, guid: 8b5dd20a82c9b0347bbabf6a722de35d, type: 3}
     - {fileID: 5074525705514629204, guid: 8b5dd20a82c9b0347bbabf6a722de35d, type: 3}
@@ -3369,6 +3589,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3432,6 +3656,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -60.34081
@@ -3494,6 +3722,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -39.420815
@@ -3550,6 +3782,10 @@ PrefabInstance:
     - target: {fileID: 1494004394435824, guid: ea51f17e496914af898f211170b14d93, type: 3}
       propertyPath: m_Name
       value: tile-water
+      objectReference: {fileID: 0}
+    - target: {fileID: 1494004394435824, guid: ea51f17e496914af898f211170b14d93, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4418329334766324, guid: ea51f17e496914af898f211170b14d93, type: 3}
       propertyPath: m_LocalScale.x
@@ -3616,6 +3852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 67.5
@@ -3677,6 +3917,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3790,6 +4034,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bumper-car (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7116445988734469282, guid: d0bfc0a22f0554f4a806ced3f36ca69e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3806,6 +4054,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3869,6 +4121,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ticket-ride-booth
       objectReference: {fileID: 0}
+    - target: {fileID: 6261716655480656060, guid: cb5208bf521f0e944a540e346af2983e, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6750269892301294086, guid: cb5208bf521f0e944a540e346af2983e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -31.93
@@ -3925,6 +4181,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -3991,6 +4251,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4089,6 +4353,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: balloon-stripes
       objectReference: {fileID: 0}
+    - target: {fileID: 4878063814299156646, guid: 056fe89601819644fb1f614fa448a49f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4679103515377889265, guid: 056fe89601819644fb1f614fa448a49f, type: 3}
     m_RemovedGameObjects: []
@@ -4106,6 +4374,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4174,6 +4446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-plain (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
       value: 2
@@ -4235,6 +4511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 45.57
@@ -4293,9 +4573,53 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1260980480}
     m_Modifications:
+    - target: {fileID: 2953415814627446632, guid: 01b9f26b69ce56a47aa3563a0f33f9a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953415814627446636, guid: 01b9f26b69ce56a47aa3563a0f33f9a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953415814627446638, guid: 01b9f26b69ce56a47aa3563a0f33f9a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953415814627446640, guid: 01b9f26b69ce56a47aa3563a0f33f9a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953415814627446642, guid: 01b9f26b69ce56a47aa3563a0f33f9a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953415814627446644, guid: 01b9f26b69ce56a47aa3563a0f33f9a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953415814627446646, guid: 01b9f26b69ce56a47aa3563a0f33f9a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953415814627446648, guid: 01b9f26b69ce56a47aa3563a0f33f9a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953415814627446650, guid: 01b9f26b69ce56a47aa3563a0f33f9a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2953415814627446652, guid: 01b9f26b69ce56a47aa3563a0f33f9a6, type: 3}
       propertyPath: m_Name
       value: ferris-wheel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953415814627446652, guid: 01b9f26b69ce56a47aa3563a0f33f9a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2953415814627446654, guid: 01b9f26b69ce56a47aa3563a0f33f9a6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 2953415814627480412, guid: 01b9f26b69ce56a47aa3563a0f33f9a6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4368,6 +4692,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4466,6 +4794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bumper-car_blue (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2193071539760323802, guid: 0cfd039b6a3bd084ebe3f727a7389905, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4487,6 +4819,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -4548,6 +4884,10 @@ PrefabInstance:
     - target: {fileID: 1618409282137493518, guid: 89f4396468914f54a98d197382f2df77, type: 3}
       propertyPath: m_Name
       value: egypt-stand-small (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1618409282137493518, guid: 89f4396468914f54a98d197382f2df77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1618409282137984046, guid: 89f4396468914f54a98d197382f2df77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4611,6 +4951,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 94.08
@@ -4672,6 +5016,10 @@ PrefabInstance:
     - target: {fileID: 1208323333587916336, guid: 4573ce1962846514089569e2ae4cc85c, type: 3}
       propertyPath: m_Name
       value: balloons-bunch-more (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1208323333587916336, guid: 4573ce1962846514089569e2ae4cc85c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1985809289744387210, guid: 4573ce1962846514089569e2ae4cc85c, type: 3}
       propertyPath: m_LocalScale.x
@@ -4786,6 +5134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (100)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -61.820812
@@ -4842,6 +5194,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (78)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4915,6 +5271,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (58)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 79.679184
@@ -4971,6 +5331,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5035,9 +5399,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1260980480}
     m_Modifications:
+    - target: {fileID: 4857220131123498054, guid: 2ef36701e06e1c44cad0be6200a187e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249876445189346059, guid: 2ef36701e06e1c44cad0be6200a187e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8082468094904715650, guid: 2ef36701e06e1c44cad0be6200a187e6, type: 3}
       propertyPath: m_Name
       value: carousel-coaster (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8082468094904715650, guid: 2ef36701e06e1c44cad0be6200a187e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8890494085224796984, guid: 2ef36701e06e1c44cad0be6200a187e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5097,9 +5473,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1260980480}
     m_Modifications:
+    - target: {fileID: 4857220131123498054, guid: 2ef36701e06e1c44cad0be6200a187e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5249876445189346059, guid: 2ef36701e06e1c44cad0be6200a187e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8082468094904715650, guid: 2ef36701e06e1c44cad0be6200a187e6, type: 3}
       propertyPath: m_Name
       value: carousel-coaster
+      objectReference: {fileID: 0}
+    - target: {fileID: 8082468094904715650, guid: 2ef36701e06e1c44cad0be6200a187e6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8890494085224796984, guid: 2ef36701e06e1c44cad0be6200a187e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5157,6 +5545,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5219,6 +5611,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -5283,7 +5679,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &900055083
 Transform:
@@ -5319,6 +5715,10 @@ PrefabInstance:
     - target: {fileID: 1000014197648028, guid: b201bd5a2b1e0b645b655866e60530a4, type: 3}
       propertyPath: m_Name
       value: balloon (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014197648028, guid: b201bd5a2b1e0b645b655866e60530a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000011422126914, guid: b201bd5a2b1e0b645b655866e60530a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5377,6 +5777,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5440,6 +5844,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -51.06
@@ -5497,6 +5905,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (47)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 59.809193
@@ -5553,6 +5965,10 @@ PrefabInstance:
     - target: {fileID: 1208323333587916336, guid: 4573ce1962846514089569e2ae4cc85c, type: 3}
       propertyPath: m_Name
       value: balloons-bunch-more (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1208323333587916336, guid: 4573ce1962846514089569e2ae4cc85c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1985809289744387210, guid: 4573ce1962846514089569e2ae4cc85c, type: 3}
       propertyPath: m_LocalScale.x
@@ -5627,6 +6043,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -60
@@ -5683,6 +6103,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (73)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5781,6 +6205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sushi-stall
       objectReference: {fileID: 0}
+    - target: {fileID: 4129118910250732255, guid: cc4354177d698b44d97dc46299f3fadc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5822,6 +6250,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -5888,6 +6320,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -5994,6 +6430,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tent-circus-big
       objectReference: {fileID: 0}
+    - target: {fileID: 3476134292633716654, guid: 7a9ae2a71cabfed4795f17f0c37bf0f6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6051,6 +6491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: balloon-stripes (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4878063814299156646, guid: 056fe89601819644fb1f614fa448a49f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4679103515377889265, guid: 056fe89601819644fb1f614fa448a49f, type: 3}
     m_RemovedGameObjects: []
@@ -6073,6 +6517,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6135,6 +6583,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -6205,6 +6657,10 @@ PrefabInstance:
     - target: {fileID: 5184438843159339688, guid: 70b100867ba56d544b4bc9588de14373, type: 3}
       propertyPath: m_Name
       value: burger-stall
+      objectReference: {fileID: 0}
+    - target: {fileID: 5184438843159339688, guid: 70b100867ba56d544b4bc9588de14373, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5528453334573234194, guid: 70b100867ba56d544b4bc9588de14373, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6293,6 +6749,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6391,6 +6851,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bumper-cars-booth
       objectReference: {fileID: 0}
+    - target: {fileID: 2859607526673965021, guid: 722757ce556ade241a0aa5a1c4568312, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6407,6 +6871,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6470,6 +6938,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (91)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -41.54081
@@ -6532,6 +7004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.33
@@ -6588,6 +7064,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -6655,6 +7135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 81.15919
@@ -6712,6 +7196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -64.94081
@@ -6768,6 +7256,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6830,6 +7322,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6897,6 +7393,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6995,6 +7495,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: egypt-stand-small
       objectReference: {fileID: 0}
+    - target: {fileID: 3157915722995544007, guid: 4cd767daf670682449986ef6564943e1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7011,6 +7515,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (72)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7094,6 +7602,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (81)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -47.8
@@ -7150,6 +7662,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7223,6 +7739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coffee-stall
       objectReference: {fileID: 0}
+    - target: {fileID: 7326051473159419318, guid: c8bcbb6897de03145beef156682e67db, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7989540029033918220, guid: c8bcbb6897de03145beef156682e67db, type: 3}
       propertyPath: m_LocalPosition.x
       value: 33.17
@@ -7280,6 +7800,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7342,6 +7866,10 @@ PrefabInstance:
     - target: {fileID: 1208323333587916336, guid: 4573ce1962846514089569e2ae4cc85c, type: 3}
       propertyPath: m_Name
       value: balloons-bunch-more (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1208323333587916336, guid: 4573ce1962846514089569e2ae4cc85c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1985809289744387210, guid: 4573ce1962846514089569e2ae4cc85c, type: 3}
       propertyPath: m_LocalScale.x
@@ -7416,6 +7944,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -19.17
@@ -7472,6 +8004,10 @@ PrefabInstance:
     - target: {fileID: 1208323333587916336, guid: 4573ce1962846514089569e2ae4cc85c, type: 3}
       propertyPath: m_Name
       value: balloons-bunch-more (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1208323333587916336, guid: 4573ce1962846514089569e2ae4cc85c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1985809289744387210, guid: 4573ce1962846514089569e2ae4cc85c, type: 3}
       propertyPath: m_LocalScale.x
@@ -7556,6 +8092,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: roller-coaster-cart-back
       objectReference: {fileID: 0}
+    - target: {fileID: 2485227909879441993, guid: 69aa8a671a515a7478ae6aa6586287b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2969733840105402611, guid: 69aa8a671a515a7478ae6aa6586287b6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.82
@@ -7612,6 +8152,10 @@ PrefabInstance:
     - target: {fileID: 4622202619395096772, guid: 079668d74790fe54db3324f068d22c5a, type: 3}
       propertyPath: m_Name
       value: roller-coaster-cart (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622202619395096772, guid: 079668d74790fe54db3324f068d22c5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5435436171647556222, guid: 079668d74790fe54db3324f068d22c5a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7677,7 +8221,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1260980480
 Transform:
@@ -7772,6 +8316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -20.65
@@ -7828,6 +8376,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (86)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7906,6 +8458,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (99)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -58.56081
@@ -7962,6 +8518,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8078,6 +8638,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.19919205
@@ -8139,6 +8703,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8202,6 +8770,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -21.740814
@@ -8263,6 +8835,10 @@ PrefabInstance:
     - target: {fileID: 1829304698282786, guid: bb6437ac639ca7c4d9e3ae9b5a5efe2b, type: 3}
       propertyPath: m_Name
       value: building-mall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1829304698282786, guid: bb6437ac639ca7c4d9e3ae9b5a5efe2b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4586642850976310, guid: bb6437ac639ca7c4d9e3ae9b5a5efe2b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8371,6 +8947,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tent-party-big (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4232418750875449005, guid: e0e9f10604629564080ed286332f671c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8387,6 +8967,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (85)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8490,6 +9074,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tent-party
       objectReference: {fileID: 0}
+    - target: {fileID: 6745924261150490779, guid: fce61f00c40623a488141e8b86442cbe, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8547,6 +9135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: egypt-stand
       objectReference: {fileID: 0}
+    - target: {fileID: 8020325858417752376, guid: 24eb928a54d22bc409fa82ba11d023ec, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8563,6 +9155,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -8627,7 +9223,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1412166428
 Transform:
@@ -8764,6 +9360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -29.32
@@ -8820,6 +9420,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8883,6 +9487,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 96.5
@@ -8939,6 +9547,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -9016,6 +9628,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.100808
@@ -9072,6 +9688,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -9174,6 +9794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: burger-statue (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 445042059417891718, guid: 358272396f45c5047a641cb137cf91df, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5848372889892275168, guid: 358272396f45c5047a641cb137cf91df, type: 3}
     m_RemovedGameObjects: []
@@ -9191,6 +9815,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (104)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9263,6 +9891,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -9365,6 +9997,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 34.039192
@@ -9422,6 +10058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (57)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 82.939186
@@ -9478,6 +10118,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -9539,6 +10183,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9607,6 +10255,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.06
@@ -9664,6 +10316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: circus-wagon (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4693882311481997396, guid: 8b5dd20a82c9b0347bbabf6a722de35d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5363740681631163118, guid: 8b5dd20a82c9b0347bbabf6a722de35d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -26.19
@@ -9704,6 +10360,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6814475892877919185, guid: 8b5dd20a82c9b0347bbabf6a722de35d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7405964872213672697, guid: 8b5dd20a82c9b0347bbabf6a722de35d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955191122330010552, guid: 8b5dd20a82c9b0347bbabf6a722de35d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4866978779616515610, guid: 8b5dd20a82c9b0347bbabf6a722de35d, type: 3}
     - {fileID: 5074525705514629204, guid: 8b5dd20a82c9b0347bbabf6a722de35d, type: 3}
@@ -9728,6 +10396,10 @@ PrefabInstance:
     - target: {fileID: 1000014197648028, guid: b201bd5a2b1e0b645b655866e60530a4, type: 3}
       propertyPath: m_Name
       value: balloon
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014197648028, guid: b201bd5a2b1e0b645b655866e60530a4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000011422126914, guid: b201bd5a2b1e0b645b655866e60530a4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9792,6 +10464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-plain (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
       value: 2
@@ -9852,6 +10528,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -9918,6 +10598,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-burger-joint
       objectReference: {fileID: 0}
+    - target: {fileID: 7505450876003691142, guid: 971463272d013e547916d5a532d76c61, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7505450876004185766, guid: 971463272d013e547916d5a532d76c61, type: 3}
       propertyPath: m_LocalPosition.x
       value: -40.35
@@ -9976,6 +10660,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (87)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -55.26081
@@ -10029,9 +10717,93 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 350294739341511582, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 423616023222460083, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1353578253712159764, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2845693556186473189, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2914190667282336711, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2944995182502049639, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3734791652049124608, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176028351446257261, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_Text
+      value: Game finished!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4332757012945093310, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4344891386886438137, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
       propertyPath: m_Name
       value: ScenePrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 4344891386886438137, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5512027096203225592, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958655570076191954, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6251649374107715314, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411061367113245873, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6411061367113245873, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506056166709711838, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 420
+      objectReference: {fileID: 0}
+    - target: {fileID: 6506056166709711838, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6615922957618562696, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6674929209522389519, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6965140556284582263, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7179873596110226917, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7751789536755331001, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10075,10 +10847,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7844317097083548920, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
       propertyPath: goodsLimitToEnableMagnet
-      value: 1000
+      value: 2500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4507713830715315432, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d74bdf8e4ab977441927b128f7b80bba, type: 3}
@@ -10093,6 +10866,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10155,6 +10932,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10264,9 +11045,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3146712141374688577, guid: 119b36f955b0846449b84fcba4ce291a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146712141374688579, guid: 119b36f955b0846449b84fcba4ce291a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3146712141374688581, guid: 119b36f955b0846449b84fcba4ce291a, type: 3}
       propertyPath: m_Name
       value: rickshaw
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146712141374688581, guid: 119b36f955b0846449b84fcba4ce291a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3146712141374688583, guid: 119b36f955b0846449b84fcba4ce291a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10284,6 +11081,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (77)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10341,6 +11142,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (66)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10404,6 +11209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -36.160812
@@ -10460,6 +11269,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10523,6 +11336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (96)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -63.3
@@ -10579,6 +11396,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10652,6 +11473,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -56.140812
@@ -10714,6 +11539,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-plain (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10775,6 +11604,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -10886,6 +11719,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bumper-car_blue
       objectReference: {fileID: 0}
+    - target: {fileID: 2193071539760323802, guid: 0cfd039b6a3bd084ebe3f727a7389905, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10942,6 +11779,10 @@ PrefabInstance:
     - target: {fileID: 4878063814299156646, guid: 056fe89601819644fb1f614fa448a49f, type: 3}
       propertyPath: m_Name
       value: balloon-stripes (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4878063814299156646, guid: 056fe89601819644fb1f614fa448a49f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4679103515377889265, guid: 056fe89601819644fb1f614fa448a49f, type: 3}
@@ -11011,6 +11852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tent-party-big
       objectReference: {fileID: 0}
+    - target: {fileID: 4232418750875449005, guid: e0e9f10604629564080ed286332f671c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11027,6 +11872,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11095,6 +11944,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -52.840813
@@ -11152,6 +12005,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -27.84
@@ -11208,6 +12065,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11306,6 +12167,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: boat-china
       objectReference: {fileID: 0}
+    - target: {fileID: 3200914132228766113, guid: 775f1f0ab10f7534d9f4c5904a5a47ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11327,6 +12192,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11425,6 +12294,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stand-cotton-big
       objectReference: {fileID: 0}
+    - target: {fileID: 7866677675651051320, guid: f351d2f33366fe148bef3ea1b26a96cb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11446,6 +12319,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11503,6 +12380,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11586,6 +12467,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-plain (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
       value: 2
@@ -11652,6 +12537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-plain (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
       value: 2
@@ -11712,6 +12601,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -11783,6 +12676,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11881,6 +12778,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pizza-stall
       objectReference: {fileID: 0}
+    - target: {fileID: 8661650753554093574, guid: 766b48f4dc08459438197be57d60b254, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11912,6 +12813,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11980,6 +12885,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.280808
@@ -12036,6 +12945,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -12103,6 +13016,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.940811
@@ -12159,6 +13076,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12247,6 +13168,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (69)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: -24.160812
@@ -12303,6 +13228,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (74)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12365,6 +13294,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -12442,6 +13375,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-plain (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
       value: 2
@@ -12507,6 +13444,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (88)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12575,6 +13516,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hot-dog-stand
       objectReference: {fileID: 0}
+    - target: {fileID: 2341754732267843866, guid: bae7325e5706bb749b70ba75c3bb4dd5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2341754732268072250, guid: bae7325e5706bb749b70ba75c3bb4dd5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.96
@@ -12642,6 +13587,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: roller-coaster-cart (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4622202619395096772, guid: 079668d74790fe54db3324f068d22c5a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5435436171647556222, guid: 079668d74790fe54db3324f068d22c5a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.883
@@ -12698,6 +13647,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12756,6 +13709,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-spruce (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.109192
@@ -12812,6 +13769,10 @@ PrefabInstance:
     - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_Name
       value: tree-spruce (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 153954, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 436406, guid: d935b49771d5ae744bbaa0973bb39f77, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12915,6 +13876,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: steak-stall
       objectReference: {fileID: 0}
+    - target: {fileID: 5208343168306432580, guid: 859262752f7905e4087d64a541dd0ded, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4937820227673126672, guid: 859262752f7905e4087d64a541dd0ded, type: 3}
     m_RemovedGameObjects: []
@@ -12937,6 +13902,10 @@ PrefabInstance:
     - target: {fileID: 444229797996521405, guid: cb356e2220cef0a438f2b88b62790b63, type: 3}
       propertyPath: m_Name
       value: building-lotus-india
+      objectReference: {fileID: 0}
+    - target: {fileID: 444229797996521405, guid: cb356e2220cef0a438f2b88b62790b63, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 444229797996821405, guid: cb356e2220cef0a438f2b88b62790b63, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12994,6 +13963,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -13060,6 +14033,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-plain (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
       value: 2
@@ -13120,6 +14097,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y
@@ -13191,6 +14172,10 @@ PrefabInstance:
     - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_Name
       value: tile-plain (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1871174464052898, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4755125321900414, guid: ad9d3c1bf87264ed8a89c188f2c1018c, type: 3}
       propertyPath: m_LocalScale.y

@@ -133,7 +133,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &22698850
 Transform:
@@ -179,6 +179,10 @@ PrefabInstance:
     - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_Name
       value: tile-plain_concrete (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4753532892958936, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -236,6 +240,10 @@ PrefabInstance:
     - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_Name
       value: tile-plain_concrete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4753532892958936, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -299,6 +307,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-plain_concrete (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4753532892958936, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -60
@@ -356,6 +368,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-plain_dirt (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1073993557574936, guid: 09e72c406ea8e4125abb6798f0c60e83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4425339443324934, guid: 09e72c406ea8e4125abb6798f0c60e83, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15
@@ -412,6 +428,10 @@ PrefabInstance:
     - target: {fileID: 1073993557574936, guid: 09e72c406ea8e4125abb6798f0c60e83, type: 3}
       propertyPath: m_Name
       value: tile-plain_dirt (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1073993557574936, guid: 09e72c406ea8e4125abb6798f0c60e83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4425339443324934, guid: 09e72c406ea8e4125abb6798f0c60e83, type: 3}
       propertyPath: m_LocalPosition.x
@@ -474,6 +494,10 @@ PrefabInstance:
     - target: {fileID: 1073993557574936, guid: 09e72c406ea8e4125abb6798f0c60e83, type: 3}
       propertyPath: m_Name
       value: tile-plain_dirt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1073993557574936, guid: 09e72c406ea8e4125abb6798f0c60e83, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4425339443324934, guid: 09e72c406ea8e4125abb6798f0c60e83, type: 3}
       propertyPath: m_LocalPosition.x
@@ -656,6 +680,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-plain_concrete (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4753532892958936, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -90
@@ -713,6 +741,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-plain_concrete (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4753532892958936, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 60
@@ -769,6 +801,10 @@ PrefabInstance:
     - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_Name
       value: tile-plain_concrete (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4753532892958936, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -847,6 +883,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-plain_concrete (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4753532892958936, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -30
@@ -903,6 +943,10 @@ PrefabInstance:
     - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_Name
       value: tile-plain_concrete (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4753532892958936, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -961,6 +1005,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-plain_concrete (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4753532892958936, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30
@@ -1018,6 +1066,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-plain_concrete (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4753532892958936, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 30
@@ -1074,6 +1126,10 @@ PrefabInstance:
     - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_Name
       value: tile-plain_concrete (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4753532892958936, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1137,6 +1193,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-plain_concrete (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4753532892958936, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 90
@@ -1198,6 +1258,10 @@ PrefabInstance:
     - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_Name
       value: tile-plain_concrete (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4753532892958936, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1281,6 +1345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-plain_concrete (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4753532892958936, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -30
@@ -1345,7 +1413,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1804323792
 Transform:
@@ -1379,6 +1447,10 @@ PrefabInstance:
     - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_Name
       value: tile-plain_concrete (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1870627807777496, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4753532892958936, guid: 694c23563628a4178bcd3bf91226687b, type: 3}
       propertyPath: m_LocalPosition.x

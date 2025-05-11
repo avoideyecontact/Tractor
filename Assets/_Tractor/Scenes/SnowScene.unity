@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-fir-snow (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5000001
@@ -203,6 +207,10 @@ PrefabInstance:
     - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_Name
       value: stakes-snow (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
@@ -284,7 +292,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &36204652
 Transform:
@@ -316,6 +324,10 @@ PrefabInstance:
     - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_Name
       value: stakes-snow (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
@@ -404,6 +416,10 @@ PrefabInstance:
     - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_Name
       value: tree-fir-snow (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -602,6 +618,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stakes-snow (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -680,6 +700,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stakes-snow (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -752,6 +776,10 @@ PrefabInstance:
     - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_Name
       value: tree-fir-snow (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -826,6 +854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stakes-snow (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -899,6 +931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stakes-snow (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -971,6 +1007,10 @@ PrefabInstance:
     - target: {fileID: 6863263640503641106, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
       propertyPath: m_Name
       value: snow-jump (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6863263640503641106, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6863263640503810098, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
       propertyPath: m_LocalScale.x
@@ -1060,6 +1100,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-fir-snow (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -1137,6 +1181,10 @@ PrefabInstance:
     - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_Name
       value: stakes-snow (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
@@ -1216,6 +1264,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-fir-snow (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -1288,6 +1340,10 @@ PrefabInstance:
     - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_Name
       value: stakes-snow (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
@@ -1362,6 +1418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-fir-snow (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -1434,6 +1494,10 @@ PrefabInstance:
     - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_Name
       value: stakes-snow (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
@@ -1513,6 +1577,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stakes-snow (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -1586,6 +1654,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-fir-snow (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.4999999
@@ -1658,6 +1730,10 @@ PrefabInstance:
     - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_Name
       value: tree-fir-snow (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -1747,6 +1823,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-fir-snow (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -1819,6 +1899,10 @@ PrefabInstance:
     - target: {fileID: 6863263640503641106, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
       propertyPath: m_Name
       value: snow-jump (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6863263640503641106, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6863263640503810098, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
       propertyPath: m_LocalScale.x
@@ -1903,6 +1987,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-fir-snow (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -1981,6 +2069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-fir-snow (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -2054,6 +2146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stakes-snow (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -2126,6 +2222,10 @@ PrefabInstance:
     - target: {fileID: 6863263640503641106, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
       propertyPath: m_Name
       value: snow-jump (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6863263640503641106, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6863263640503810098, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
       propertyPath: m_LocalScale.x
@@ -2209,6 +2309,10 @@ PrefabInstance:
     - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_Name
       value: tree-fir-snow (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -2335,9 +2439,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2629929263042905773, guid: b2c1c6bdfef3eed4b9d7229aad2944d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3034786918728524111, guid: b2c1c6bdfef3eed4b9d7229aad2944d8, type: 3}
       propertyPath: m_Name
       value: Stone_5_snow (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034786918728524111, guid: b2c1c6bdfef3eed4b9d7229aad2944d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2365,6 +2477,10 @@ PrefabInstance:
     - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_Name
       value: tree-fir-snow (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -2496,9 +2612,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2629929263042905773, guid: b2c1c6bdfef3eed4b9d7229aad2944d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3034786918728524111, guid: b2c1c6bdfef3eed4b9d7229aad2944d8, type: 3}
       propertyPath: m_Name
       value: Stone_5_snow (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034786918728524111, guid: b2c1c6bdfef3eed4b9d7229aad2944d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2526,6 +2650,10 @@ PrefabInstance:
     - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_Name
       value: tree-fir-snow (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -2600,6 +2728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: snow-jump (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6863263640503641106, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6863263640503810098, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
       propertyPath: m_LocalScale.x
       value: 8
@@ -2673,6 +2805,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-fir-snow (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -2745,6 +2881,10 @@ PrefabInstance:
     - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_Name
       value: tree-fir-snow (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -2823,6 +2963,10 @@ PrefabInstance:
     - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_Name
       value: stakes-snow (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
@@ -2909,7 +3053,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1066019558
 Transform:
@@ -2963,6 +3107,10 @@ PrefabInstance:
     - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_Name
       value: tree-fir-snow (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -3042,6 +3190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-fir-snow (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -3114,6 +3266,10 @@ PrefabInstance:
     - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_Name
       value: tree-fir-snow (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -3190,7 +3346,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1213598641
 Transform:
@@ -3227,6 +3383,10 @@ PrefabInstance:
     - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_Name
       value: tree-fir-snow (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -3311,6 +3471,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-fir-snow
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5000001
@@ -3383,6 +3547,10 @@ PrefabInstance:
     - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_Name
       value: stakes-snow (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
@@ -3525,6 +3693,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stakes-snow (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -3597,6 +3769,10 @@ PrefabInstance:
     - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_Name
       value: stakes-snow (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
@@ -3671,6 +3847,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-fir-snow (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -3743,6 +3923,10 @@ PrefabInstance:
     - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_Name
       value: tree-fir-snow (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -3817,6 +4001,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stakes-snow (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -3890,6 +4078,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-fir-snow (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -3962,6 +4154,10 @@ PrefabInstance:
     - target: {fileID: 6863263640503641106, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
       propertyPath: m_Name
       value: snow-jump (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6863263640503641106, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6863263640503810098, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
       propertyPath: m_LocalScale.x
@@ -4051,6 +4247,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-fir-snow (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -4128,6 +4328,10 @@ PrefabInstance:
     - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_Name
       value: stakes-snow (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
@@ -4207,6 +4411,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-fir-snow (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5
@@ -4285,6 +4493,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stakes-snow (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -4358,6 +4570,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-fir-snow (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5000001
@@ -4430,6 +4646,10 @@ PrefabInstance:
     - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_Name
       value: stakes-snow (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
@@ -4508,6 +4728,10 @@ PrefabInstance:
     - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_Name
       value: tree-fir-snow (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -4597,6 +4821,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: snow-jump (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6863263640503641106, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6863263640503810098, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
       propertyPath: m_LocalScale.x
       value: 8
@@ -4669,6 +4897,10 @@ PrefabInstance:
     - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_Name
       value: tree-fir-snow (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -4800,9 +5032,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2629929263042905773, guid: b2c1c6bdfef3eed4b9d7229aad2944d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3034786918728524111, guid: b2c1c6bdfef3eed4b9d7229aad2944d8, type: 3}
       propertyPath: m_Name
       value: Stone_5_snow
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034786918728524111, guid: b2c1c6bdfef3eed4b9d7229aad2944d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4833,7 +5073,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1613067887
 Transform:
@@ -4910,6 +5150,10 @@ PrefabInstance:
     - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_Name
       value: tree-fir-snow (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -4989,6 +5233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stakes-snow (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -5061,6 +5309,10 @@ PrefabInstance:
     - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_Name
       value: tree-fir-snow (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -5140,6 +5392,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-fir-snow (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.5000001
@@ -5212,6 +5468,10 @@ PrefabInstance:
     - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_Name
       value: stakes-snow (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
@@ -5303,7 +5563,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1826903131
 Transform:
@@ -5340,6 +5600,10 @@ PrefabInstance:
     - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_Name
       value: tree-fir-snow (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -5449,6 +5713,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: snow-jump (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6863263640503641106, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6863263640503810098, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
       propertyPath: m_LocalScale.x
       value: 8
@@ -5537,6 +5805,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: snow-jump
       objectReference: {fileID: 0}
+    - target: {fileID: 6863263640503641106, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 6863263640503810098, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
       propertyPath: m_LocalScale.x
       value: 8
@@ -5620,6 +5892,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stakes-snow (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -5692,6 +5968,10 @@ PrefabInstance:
     - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_Name
       value: stakes-snow (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
@@ -5769,6 +6049,10 @@ PrefabInstance:
     - target: {fileID: 6863263640503641106, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6863263640503641106, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 6863263640503810098, guid: 0fd3c3ea9d20bc548889fb5be94d121b, type: 3}
       propertyPath: m_LocalScale.x
@@ -5848,6 +6132,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stakes-snow (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -5921,6 +6209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: stakes-snow (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
       value: 2
@@ -5993,6 +6285,10 @@ PrefabInstance:
     - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_Name
       value: tree-fir-snow (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014245712812, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000014180843646, guid: e5db45e3b481bf14ab760eeecd46c4ee, type: 3}
       propertyPath: m_LocalScale.x
@@ -6071,6 +6367,10 @@ PrefabInstance:
     - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_Name
       value: stakes-snow (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277779551845370, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4791185934086336, guid: 63be1da14f09f48d687d192fcd0d4db9, type: 3}
       propertyPath: m_LocalScale.x
@@ -6212,9 +6512,17 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2629929263042905773, guid: b2c1c6bdfef3eed4b9d7229aad2944d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 3034786918728524111, guid: b2c1c6bdfef3eed4b9d7229aad2944d8, type: 3}
       propertyPath: m_Name
       value: Stone_5_snow (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034786918728524111, guid: b2c1c6bdfef3eed4b9d7229aad2944d8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
