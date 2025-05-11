@@ -841,7 +841,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dungeon
+  m_Text: Funfair
 --- !u!222 &549605078
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4011,7 +4011,7 @@ GameObject:
   - component: {fileID: 1629656243}
   - component: {fileID: 1629656242}
   m_Layer: 5
-  m_Name: DungeonButton (Legacy)
+  m_Name: FunfairButton (Legacy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4083,7 +4083,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 702023852}
         m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: LoadFunfair
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
