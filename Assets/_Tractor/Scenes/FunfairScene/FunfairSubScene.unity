@@ -770,7 +770,7 @@ PrefabInstance:
       objectReference: {fileID: 2964655679125564998, guid: 78aefe3ee104bed42b87964eccd750ea, type: 3}
     - target: {fileID: 8117501053240999779, guid: ecfe9f1b52ba24b428c554d7e8decf5f, type: 3}
       propertyPath: quantity
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8117501053240999779, guid: ecfe9f1b52ba24b428c554d7e8decf5f, type: 3}
       propertyPath: gameObjects.Array.size
