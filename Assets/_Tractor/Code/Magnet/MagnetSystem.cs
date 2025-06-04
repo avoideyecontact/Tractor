@@ -7,7 +7,7 @@ using Unity.Transforms;
 
 [BurstCompile]
 [UpdateInGroup(typeof(FixedStepSimulationSystemGroup))]
-public partial struct SingleMagnetSystem : ISystem
+public partial struct MagnetSystem : ISystem
 {
     [BurstCompile]
     public void OnCreate(ref SystemState state)
