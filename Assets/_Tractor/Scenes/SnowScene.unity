@@ -32,8 +32,8 @@ RenderSettings:
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
-  m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
+  m_DefaultReflectionMode: 1
+  m_DefaultReflectionResolution: 16
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
@@ -1004,14 +1004,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1213598641}
     m_Modifications:
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_Name
-      value: snow-jump (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 5954132222423988168, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
       propertyPath: m_LocalScale.x
       value: 8
@@ -1067,6 +1059,14 @@ PrefabInstance:
     - target: {fileID: 5954132222423988168, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_Name
+      value: snow-jump (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1896,14 +1896,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1213598641}
     m_Modifications:
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_Name
-      value: snow-jump (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 5954132222423988168, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
       propertyPath: m_LocalScale.x
       value: 8
@@ -1959,6 +1951,14 @@ PrefabInstance:
     - target: {fileID: 5954132222423988168, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_Name
+      value: snow-jump (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2219,14 +2219,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1213598641}
     m_Modifications:
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_Name
-      value: snow-jump (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 5954132222423988168, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
       propertyPath: m_LocalScale.x
       value: 8
@@ -2282,6 +2274,14 @@ PrefabInstance:
     - target: {fileID: 5954132222423988168, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_Name
+      value: snow-jump (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2724,14 +2724,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1213598641}
     m_Modifications:
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_Name
-      value: snow-jump (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 5954132222423988168, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
       propertyPath: m_LocalScale.x
       value: 8
@@ -2787,6 +2779,14 @@ PrefabInstance:
     - target: {fileID: 5954132222423988168, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_Name
+      value: snow-jump (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4151,14 +4151,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1213598641}
     m_Modifications:
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_Name
-      value: snow-jump (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 5954132222423988168, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
       propertyPath: m_LocalScale.x
       value: 8
@@ -4214,6 +4206,14 @@ PrefabInstance:
     - target: {fileID: 5954132222423988168, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_Name
+      value: snow-jump (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4817,14 +4817,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1213598641}
     m_Modifications:
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_Name
-      value: snow-jump (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 5954132222423988168, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
       propertyPath: m_LocalScale.x
       value: 8
@@ -4880,6 +4872,14 @@ PrefabInstance:
     - target: {fileID: 5954132222423988168, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_Name
+      value: snow-jump (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5709,14 +5709,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1213598641}
     m_Modifications:
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_Name
-      value: snow-jump (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 5954132222423988168, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
       propertyPath: m_LocalScale.x
       value: 8
@@ -5773,6 +5765,14 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_Name
+      value: snow-jump (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5801,14 +5801,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1213598641}
     m_Modifications:
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_Name
-      value: snow-jump
-      objectReference: {fileID: 0}
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 5954132222423988168, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
       propertyPath: m_LocalScale.x
       value: 8
@@ -5864,6 +5856,14 @@ PrefabInstance:
     - target: {fileID: 5954132222423988168, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_Name
+      value: snow-jump
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6042,18 +6042,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1213598641}
     m_Modifications:
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_Name
-      value: snow-jump (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 5954132222423988168, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
       propertyPath: m_LocalScale.x
       value: 8
@@ -6109,6 +6097,18 @@ PrefabInstance:
     - target: {fileID: 5954132222423988168, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_Name
+      value: snow-jump (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5954132222424280040, guid: 099dab80ef8a518469e04e28f893813d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
